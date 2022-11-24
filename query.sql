@@ -1,3 +1,2 @@
 use fitnessapp;
-
-CREATE TABLE player (   name VARCHAR(200),   age INTEGER,   score INTEGER );
+UPDATE `fitnessapp`.`user` SET `first_name` = 'test 99' WHERE (`user_id` = '1');
